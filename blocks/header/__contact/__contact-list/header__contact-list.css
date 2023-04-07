@@ -1,0 +1,8 @@
+.header__contact-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}

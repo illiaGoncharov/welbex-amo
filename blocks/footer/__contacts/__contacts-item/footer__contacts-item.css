@@ -1,0 +1,26 @@
+.footer__contacts-item {
+    color: #E4E5EA;
+    text-decoration: none;
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.footer__contacts-item-address {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+}
+
+@media screen and (max-width: 1140px) {
+    .footer__contacts-item-address {
+        text-align: left;
+    }   
+}

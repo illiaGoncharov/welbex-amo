@@ -1,0 +1,11 @@
+.footer__column:nth-child(3) {
+    margin-left: auto;
+    text-align: right;
+}
+
+@media screen and (max-width: 1140px) {
+    .footer__column:nth-child(3) {
+        margin-left: initial;
+        text-align: left;
+    }   
+}

@@ -1,0 +1,10 @@
+.footer__credits {
+    width: 100%;
+    text-align: right;
+}
+
+@media screen and (max-width: 1140px) {
+    .footer__credits {
+        text-align: left;
+    }   
+}

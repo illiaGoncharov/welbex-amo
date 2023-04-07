@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1140px) {
+    .main {
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+}

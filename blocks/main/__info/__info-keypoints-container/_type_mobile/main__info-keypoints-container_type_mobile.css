@@ -1,0 +1,35 @@
+.main__info-keypoints-container_type_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1140px) {
+    .main__info-keypoints-container_type_mobile {
+            display: flex;
+            flex-wrap: wrap;
+    }
+
+    .main__info-keypoints-container_type_mobile .main__info-keypoints-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #E4E5EA;
+        text-align: left;
+
+        padding-bottom: 15px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .main__info-keypoints-container_type_mobile .main__info-keypoints-title::before {
+        content: url(./.././../../../../images/main/line.svg);
+        display: inline-block;
+        padding-right: 5px;
+        vertical-align: 25%;
+        width: 10px;
+    }
+}
+

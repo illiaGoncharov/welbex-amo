@@ -1,0 +1,12 @@
+.main__info {
+    padding-top: 90px;
+    margin-left: auto;
+    width: 330px;
+}
+
+@media screen and (max-width: 1140px) {
+    .main__info {
+        padding-top: 46px;
+        margin: 0 auto;
+    }   
+}

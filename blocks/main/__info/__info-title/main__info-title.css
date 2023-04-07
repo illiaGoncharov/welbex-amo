@@ -1,0 +1,30 @@
+.main__info-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #E4E5EA;
+
+    padding-bottom: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main__info-title span {
+    font-weight: 700;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1140px) {
+    .main__info-title {
+        text-align: left;
+    }   
+}

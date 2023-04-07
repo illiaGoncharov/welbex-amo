@@ -1,0 +1,13 @@
+.header__nav {
+    width: auto;
+    padding-left: 52px;
+}
+
+@media screen and (max-width: 1140px) {
+    .header__nav {
+        padding-left: initial;
+        display: flex;
+        justify-content: space-around;
+        width: 1000%;
+    }   
+}

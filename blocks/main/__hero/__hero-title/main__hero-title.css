@@ -1,0 +1,22 @@
+.main__hero-title {    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+    max-width: 362px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+@media screen and (max-width: 1140px) {
+    .main__hero-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: #E4E5EA;
+    }   
+}

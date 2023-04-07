@@ -1,0 +1,27 @@
+.header__nav-list-item a {
+    color: #E4E5EA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1140px) {
+    .header__nav-list-item a {
+        text-transform: uppercase;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #E4E5EA;
+    }   
+
+    .header__nav-list-item:nth-last-child(1) {
+        display: none;
+    }
+}

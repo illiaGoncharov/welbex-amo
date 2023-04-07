@@ -1,0 +1,12 @@
+.header__contact-list-item,
+.header__contact-list-item a {   
+    font-family: 'Inter';
+    color: #E4E5EA;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__contact-list-item:nth-child(1) {
+    padding-right: 17px;
+}

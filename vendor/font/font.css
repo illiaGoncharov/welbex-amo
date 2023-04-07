@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter/Inter-Regular.ttf') format('ttf'),
+        url('./Inter/Inter-Regular.woff') format('woff'),
+        url('./Inter/Inter-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter/Inter-Medium.ttf') format('ttf'),
+        url('./Inter/Inter-Medium.woff') format('woff'),
+        url('./Inter/Inter-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter/Inter-Bold.ttf') format('ttf'),
+        url('./Inter/Inter-Bold.woff') format('woff'),
+        url('./Inter/Inter-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter/Inter-Black.ttf') format('ttf'),
+        url('./Inter/Inter-Black.woff') format('woff'),
+        url('./Inter/Inter-Black.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat/Montserrat-Regular.ttf') format('ttf'),
+        url('./Montserrat/Montserrat-Regular.woff') format('woff'),
+        url('./Montserrat/Montserrat-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat/Montserrat-Light.ttf') format('ttf'),
+        url('./Montserrat/Montserrat-Light.woff') format('woff'),
+        url('./Montserrat/Montserrat-Light.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}

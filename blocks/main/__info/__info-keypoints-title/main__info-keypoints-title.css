@@ -1,0 +1,11 @@
+.main__info-keypoints-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+}

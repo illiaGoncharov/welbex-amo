@@ -1,0 +1,22 @@
+.main__hero-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    width: fit-content;
+}
+
+@media screen and (max-width: 1140px) {
+    .main__hero-subtitle {
+        font-size: 36px;
+        line-height: 44px;
+    }   
+}

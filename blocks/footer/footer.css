@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 69px;
+  padding-top: 55px;
+  padding-bottom: 20px;
+  color: #E4E5EA;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+@media screen and (max-width: 1140px) {
+    .footer {
+      flex-direction: column;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 330px;
+      margin: 55px auto;
+      background-color: #0E1014;
+      padding-top: 45px;
+      gap: 30px;
+      padding-bottom: 60px;
+    }   
+}
